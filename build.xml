@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="CreateModule" default="main" basedir=".">
+  <property name="target.dir" location="${basedir}/target"/>
+  <target name="main">
+    <mkdir dir="${target.dir}/${arch}"/>
+  </target>
+</project>
